@@ -1,0 +1,158 @@
+/*CSS Stylesheet T.O.C. - Table of contents
+Created XX April XXXX
+Last update April XX: 
+
+
+Compatible Browser:
+Firefox V.85.0.2 (64-bit)
+Chrome V.89.0.4389.90 (Build oficial) (64 bits)
+Edge V.89.0.774.54 (Compilación oficial) (64 bits)
+Safari V. 
+
+
+=RESET % CONDITIONAL COMMENT
+=GENERAL
+=LAYOUT:
+=PAGES
+
+      =index
+
+/*       RESET      */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, var, b, u, i, center,
+dl, dt, dd, ol, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+
+body {
+  line-height: 1.5
+}
+
+
+/*///////////////////////GENERAL///////////////////////////*/
+
+
+p{
+  display: inline-block;
+  font-size: 18px;
+}
+
+section{
+  height: 800px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+h1{
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2{
+  font-size: 24px;
+}
+
+div{
+  background-color: lightblue;
+  height: auto;
+  margin: 0 auto 15px auto;
+  width: 750px;
+}
+
+
+/* -----------------------------------------------------------------
+                        HOVER PSEUDO-CLASS
+------------------------------------------------------------------*/
+.hover{
+  color: black;
+}
+
+.hover:hover{
+  background-color: pink;
+}
+
+/* -----------------------------------------------------------------
+                       VISITED PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.visited a{
+  color: black;
+}
+
+.visited a:visited{
+  color: blue;
+}
+
+/* -----------------------------------------------------------------
+                     FIRST-CHILD PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.first p{
+  display: block;
+}
+
+.first p:first-child{
+  color: blueviolet;
+}
+
+/* -----------------------------------------------------------------
+                       LINK PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.link a:link{
+  font-size: 25px;
+  color: green;
+}
+
+/* -----------------------------------------------------------------
+                        LANG PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.lang p{
+  display: block;
+}
+
+p:lang(it){
+  color: blue;
+}
+
+/* -----------------------------------------------------------------
+                        ACTIVE PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.active p{
+  display: block;
+}
+.active a{
+  display: inline-block;
+  background-color: lightblue;
+}
+
+.active a:active{
+  background-color: black;
+}
+
+/* -----------------------------------------------------------------
+                        FOCUS PSEUDO-CLASS
+------------------------------------------------------------------*/
+
+.focus p{
+  display: block;
+}
+.focus a{
+  display: inline-block;
+  background-color: lightblue;
+}
+
+.focus a:focus{
+  background-color: green;
+}
